@@ -1,9 +1,4 @@
 import drive_car as dv
-import os
-
-cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd)  # Get all the files in that directory
-print("Files in %r: %s" % (cwd, files))
 
 track_list = ["track1.png", "track2.png", "track3.png", "track4.png", "track5.png"]
 while True:
